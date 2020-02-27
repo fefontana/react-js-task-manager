@@ -9,9 +9,9 @@ SPA programada en React JS con operaciones de generar, visualizar, editar, elimi
   -estado
 
 Entorno y lenguajes de desarrollo:
-Node JS - Versión estable 12.16.1
-Arch Linux
-Mozilla Firefox 67.0.4 (64-bit)
+<br>Node JS - Versión estable 12.16.1
+<br>Arch Linux
+<br>Mozilla Firefox 67.0.4 (64-bit)
 
 Dependencias requeridas:
 
