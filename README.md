@@ -2,37 +2,37 @@
 Prototipo de gestor de tareas
 
 SPA programada en React JS con operaciones de generar, visualizar, editar, eliminar y listar un modelo de tarea simple con los siguientes campos de datos:
-  -id
-  -titulo
-  -descripcion
-  -responsable
-  -estado
+<br>-id
+<br>-titulo
+<br>-descripcion
+<br>-responsable
+<br>-estado
 
-Entorno y lenguajes de desarrollo:
+<br>Entorno y lenguajes de desarrollo:
 <br>Node JS - Versión estable 12.16.1
 <br>Arch Linux
 <br>Mozilla Firefox 67.0.4 (64-bit)
 
-Dependencias requeridas:
+<br>Dependencias requeridas:
 
   Popper v2.x
   
   v1.0.0-Beta.16(Bootstrap 4.3)
 
-URLs fuentes de las librerías e instrucciones para preparar el entorno de desarrollo/ejecución:
+<br>URLs fuentes de las librerías e instrucciones para preparar el entorno de desarrollo/ejecución:
 
 https://react-bootstrap.github.io/
 
 https://popper.js.org/
 
 
-Para ello, luego de crear un proyecto nuevo react, instalar los paquetes indicados a continuación y en orden consecutivo:
+<br>Para ello, luego de crear un proyecto nuevo react, instalar los paquetes indicados a continuación y en orden consecutivo:
 
   popperjs/core
 
   react-bootstrap
 
-Comandos:
+<br>Comandos:
 
   npm install react-bootstrap bootstrap
 
@@ -40,12 +40,12 @@ Comandos:
 
   npm i react-bootstrap
 
-Sin borrar la carpeta src del proyecto, eliminar todos los archivos internos de la carpeta src/ del nuevo proyecto:
+<br>Sin borrar la carpeta src del proyecto, eliminar todos los archivos internos de la carpeta src/ del nuevo proyecto:
 
 cd my-app
 cd src
 rm -f *
 
-Archivos de codigo fuente del proyecto:
+<br>Archivos de codigo fuente del proyecto:
 
 
