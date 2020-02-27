@@ -43,12 +43,9 @@ https://popper.js.org/
 
   npm i react-bootstrap
 
-<br>Sin borrar la carpeta src del proyecto, eliminar todos los archivos internos de la carpeta src/ del nuevo proyecto:
+<br>Para clonar una copia local del repositorio, hacer:
 
-cd my-app
-cd src
-rm -f *
+git clone https://github.com/react-js-task-manager
 
-<br>Archivos de codigo fuente del proyecto:
 
 
