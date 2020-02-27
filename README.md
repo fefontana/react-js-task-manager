@@ -1,28 +1,50 @@
 # react-js-task-manager
 Prototipo de gestor de tareas
 
-SPA programada en React JS con operaciones de generar, editar, eliminar y/o listar un modelo de tarea simple con los siguientes campos de datos:
--id
--titulo
--descripcion
--responsable
--estado
+SPA programada en React JS con operaciones de generar, visualizar, editar, eliminar y listar un modelo de tarea simple con los siguientes campos de datos:
+  -id
+  -titulo
+  -descripcion
+  -responsable
+  -estado
 
 Entorno y lenguajes de desarrollo:
-Node JS - Versión estable 12
+Node JS - Versión estable 12.16.1
 Arch Linux
+Mozilla Firefox 67.0.4 (64-bit)
 
-Luego de crear un proyecto nuevo react se requiere la instalación de los paquetes indicados a continuación:
+Dependencias requeridas:
 
-Bootstrap 4:
+  Popper v2.x
+  
+  v1.0.0-Beta.16(Bootstrap 4.3)
 
-npm install react-bootstrap bootstrap
+URLs fuentes de las librerías e instrucciones para preparar el entorno de desarrollo/ejecución:
 
-npm i @popperjs/core
+https://react-bootstrap.github.io/
+https://popper.js.org/
 
-npm i react-bootstrap
 
-Dependencias
+Para ello, luego de crear un proyecto nuevo react, instalar los paquetes indicados a continuación y en orden consecutivo:
 
-popperjs/core
-react-bootstrap
+  popperjs/core
+
+  react-bootstrap
+
+Comandos:
+
+  npm install react-bootstrap bootstrap
+
+  npm i @popperjs/core
+
+  npm i react-bootstrap
+
+Sin borrar la carpeta src del proyecto, eliminar todos los archivos internos de la carpeta src/ del nuevo proyecto:
+
+cd my-app
+cd src
+rm -f *
+
+Archivos de codigo fuente del proyecto:
+
+
