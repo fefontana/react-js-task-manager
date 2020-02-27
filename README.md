@@ -9,22 +9,25 @@ SPA programada en React JS con operaciones de generar, visualizar, editar, elimi
 <br>-estado
 
 <br>Entorno y lenguajes de desarrollo:
-<br>Node JS - Versión estable 12.16.1
 <br>Arch Linux
+<br>NPM v6.13.4
+<br>Node JS - Versión estable 12.16.1
+
 <br>Mozilla Firefox 67.0.4 (64-bit)
 
-<br>Dependencias requeridas:
+<br>Dependencias requeridas ():
 
   Popper v2.x
   
   v1.0.0-Beta.16(Bootstrap 4.3)
 
-<br>URLs fuentes de las librerías e instrucciones para preparar el entorno de desarrollo/ejecución:
+<br>URLs fuentes de las librerías:
 
 https://react-bootstrap.github.io/
 
 https://popper.js.org/
 
+<br>Instrucciones para preparar el entorno de desarrollo/ejecución:
 
 <br>Para ello, luego de crear un proyecto nuevo react, instalar los paquetes indicados a continuación y en orden consecutivo:
 
