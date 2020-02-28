@@ -1,0 +1,19 @@
+{
+  "tasks": [
+    {
+      "tarea": "Rediseño de infraestructura",
+      "asignada": "Alejandro",
+      "prioridad": "low"
+    },
+    {
+      "tarea": "Análisis de requerimientos",
+      "asignada": "Maria",
+      "prioridad": "medium"
+    },
+    {
+      "tarea": "Implementación de software",
+      "asignada": "Pablo",
+      "prioridad": "high"
+    }
+  ]
+}

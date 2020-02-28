@@ -37,6 +37,8 @@ https://popper.js.org/
 
 <br>Comandos:
 
+npx create-react-app my-app
+
   npm install react-bootstrap bootstrap
 
   npm i @popperjs/core
