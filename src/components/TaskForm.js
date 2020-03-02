@@ -10,16 +10,33 @@ class TaskForm extends Component {
     };
     this.handleInputChange = this.handleInputChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
+/*
+    this.handleClose = this.handleClose.bind(this);
+    this.handleShow = this.handleShow.bind(this);
+    */
+  }
+/*
+  handleClose(){
+    this.setState({
+      show : false
+    })
   }
 
+  handleShow(){
+    this.setState({
+      show : true
+    })
+  }
+*/
   handleSubmit(e) {
     e.preventDefault();
     this.props.onAddTask(this.state);
     this.setState({
       tarea: '',
       asignada: '',
-      prioridad: ''
+      prioridad: '',
     });
+    //this.handleClose();
   }
 
   handleInputChange(e) {

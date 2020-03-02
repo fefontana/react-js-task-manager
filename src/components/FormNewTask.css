@@ -9,3 +9,17 @@
     margin-top: 50px;
     padding: 3px;
 }
+
+
+
+.FormNewTask-header{
+    margin-top: 50px;
+    text-align: left;
+
+}
+
+.FormNewTask-button{
+    float: right;
+    margin-top: 50px;
+    padding: 3px;
+}

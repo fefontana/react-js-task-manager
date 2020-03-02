@@ -33,6 +33,7 @@ class App extends Component {
     this.setState({
       tasks: [...this.state.tasks, task]
     })
+    this.handleClose();
   }
 
   handleClose(){
@@ -51,7 +52,8 @@ class App extends Component {
     const tasks = this.state.tasks.map((task, i) => {
       return (
 
-          <div className="row">
+     
+                <div className="row" key={i}>
 
                           <div className="col-5">{task.tarea}</div>
                           <div className="col-2">{task.asignada}</div>
@@ -63,7 +65,7 @@ class App extends Component {
 
                           </div>
 
-          </div>
+               </div> 
 
       )
     });
@@ -74,6 +76,7 @@ class App extends Component {
       <header className="App-header">
         Administrador de Tareas
       </header>
+          
           <div className="container Container-marginTop Container-color">
 
 
@@ -83,49 +86,44 @@ class App extends Component {
                 </Modal.Header>
                 <Modal.Body>
 
-                    <div className="form-group">
-
-                      <form onSubmit={this.handleSubmit}>
-                        <label>
-                          Describa tarea:
-                          <input name="tarea" type="text" />
-                        </label>
-                        <input type="submit" value="Submit" />
-                      </form>
-                                
-                    </div>
+                  <div className="row">
+                      <TaskForm className="col-12" onAddTask={this.handleAddTask}></TaskForm>
+                  </div>
 
                 </Modal.Body>
               </Modal>
 
-          <div className="col-12">
 
-            <div className="row">
+              <div className="row">
 
-              <div className="col-9">
-                  <h3 className="FormNewTask-header">Tareas - Total [{this.state.tasks.length}]</h3>
+                  <div className="App-tasktit col-8">
+                      Tareas - Total [{this.state.tasks.length}]
+                  </div>
+
+                  <div className="col-4">
+                      <button type="button" className="btn btn-success" onClick = {this.handleShow}>Agregar Nueva</button>
+                  </div>
               </div>
-              <div className="col-3">
-                  <button type="button" className="btn btn-success FormNewTask-button" onClick = {this.handleShow}>Agregar Nueva</button>
-              </div>
-
-            </div>
             
-            <div className="row">
-                <TaskForm className="col-12" onAddTask={this.handleAddTask}></TaskForm>
-            </div>
-            
+              <div className="App-subheader row" >
+                                <div className="col-5">Tarea</div>
+                                <div className="col-2">Asignada</div>
+                                <div className="col-1">Prioridad</div>
+                                <div className="col-3">Accion</div>
+              </div>  
             {tasks}
 
-          </div>
+
         </div>
 
           <footer>
             <p>powered by NodeJS - ReactJS - Bootstrap</p>
           </footer>
-      </div>
+    </div>
     );
   }
 }
 
 export default App;
+
+
