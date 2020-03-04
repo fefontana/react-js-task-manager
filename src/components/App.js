@@ -80,7 +80,7 @@ class App extends Component {
           <div className="container Container-marginTop Container-color">
 
 
-              <Modal show={this.state.show} onHide={this.handleClose}>
+              <Modal size="lg" show={this.state.show} onHide={this.handleClose}>
                 <Modal.Header>
                   <Modal.Title>Agregar Nueva Tarea</Modal.Title>
                 </Modal.Header>
